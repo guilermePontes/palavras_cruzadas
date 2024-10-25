@@ -1,0 +1,60 @@
+body {
+  background-image: url("http://backgrounds.picaboo.com/download/b3/31/b3126075b98e48cfa575de15bc734a5c/SP_Gabby_Paper_Vanilla.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+table {
+  background-color: wheat;
+  margin: auto;
+}
+p {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  border-collapse: collapse;
+}
+td {
+  width: 40px;
+  height: 40px;
+  border: 1px solid silver;
+  font-size: 10px;
+  position: relative;
+}
+input {
+  width: 30px;
+  height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  font-size: 18px;
+  border: 0px;
+  float: right;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+}
+input:disabled {
+  background: black;
+  color: white;
+}
+span {
+  font-weight: bold;
+  padding-left: 2px;
+}
+button + span {
+  display: none;
+}
+button:focus + span {
+  display: inline;
+}
+h3 {
+  text-align: center;
+}
+table {
+  margin-top: 8px;
+}
