@@ -5,6 +5,10 @@ body {
   background-color: rgb(29, 29, 29);
 }
 
+.correct {
+  margin: 8px;
+}
+
 p{
   font-family: "Poppins", sans-serif;
   color: white;
@@ -70,10 +74,7 @@ input {
   bottom: 0px;
   right: 0px;
   position: absolute;
-}
-
-input{
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #00000000;
 }
 
 input:disabled {
@@ -84,9 +85,21 @@ input:disabled {
   color: rgb(0, 0, 0);
 }
 
-span {
-  font-weight: bold;
-  padding-left: 2px;
+.caixa-timer {
+  width: fit-content;
+  border: solid rgba(255, 255, 255, 0.212) 2px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 20px;
+  padding: 5px 20px 5px 20px;
+}
+
+.hint-button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
 }
 
 button + span {

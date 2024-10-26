@@ -29,7 +29,7 @@
         <input type="text" maxlength="1" id="myId02" disabled>
       </td>
       <td>3
-        <input type="text" maxlength="1" id="myId03">
+        <input type="text" maxlength="1" id="myId03" class="correct">
       </td>
       <td>4
         <input type="text" maxlength="1" id="myId04" disabled>
@@ -45,16 +45,16 @@
         <input type="text" maxlength="1" id="myId11" disabled>
       </td>
       <td>7
-        <input type="text" maxlength="1" id="myId12">
+        <input type="text" maxlength="1" id="myId12" class="correct">
       </td>
       <td>8
-        <input type="text" maxlength="1" id="myId13">
+        <input type="text" maxlength="1" id="myId13" class="correct">
       </td>
       <td>9
-        <input type="text" maxlength="1" id="myId14">
+        <input type="text" maxlength="1" id="myId14" class="correct">
       </td>
       <td>10
-        <input type="text" maxlength="1" id="myId15">
+        <input type="text" maxlength="1" id="myId15" class="correct">
       </td>
     </tr>
     
@@ -67,39 +67,39 @@
         <input type="text" maxlength="1" id="myId22" disabled>
       </td>
       <td>13
-        <input type="text" maxlength="1" id="myId23">
+        <input type="text" maxlength="1" id="myId23" class="correct">
       </td>
       <td>14
         <input type="text" maxlength="1" id="myId24" disabled>
       </td>
       <td>15
-        <input type="text" maxlength="1" id="myId25">
+        <input type="text" maxlength="1" id="myId25" class="correct">
       </td>
     </tr>
     
     <!-- LINHA 4 -->
     <tr>
       <td>16
-        <input type="text" maxlength="1" id="myId31">
+        <input type="text" maxlength="1" id="myId31" class="correct">
       </td>
       <td>17
-        <input type="text" maxlength="1" id="myId32">
+        <input type="text" maxlength="1" id="myId32" class="correct">
       </td>
       <td>18
-        <input type="text" maxlength="1" id="myId33">
+        <input type="text" maxlength="1" id="myId33" class="correct">
       </td>
       <td>19
         <input type="text" maxlength="1" id="myId34" disabled>
       </td>
       <td>20
-        <input type="text" maxlength="1" id="myId35">
+        <input type="text" maxlength="1" id="myId35" class="correct">
       </td>
     </tr>
     
     <!-- LINHA 5 -->
     <tr>
       <td>21
-        <input type="text" maxlength="1" id="myId41">
+        <input type="text" maxlength="1" id="myId41" class="correct">
       </td>
       <td>22
         <input type="text" maxlength="1" id="myId42" disabled>
@@ -116,22 +116,32 @@
     </tr>
 
   </table>
-  <p><span id="timer">0</span> seconds</p>
+  
+  
+
+  <div class="caixa-timer">
+    <h3>
+      Seu tempo
+    </h3>
+    <p>
+      <span id="timer">0</span> seconds
+    </p>
+  </div>
   
   
   <div id="hint-box">
     <h3>Across</h3>
     <p class="hint">7: The default language for android
-      <button>Reveal</button><span>java</span></p>
+      <button class="hint-button">Reveal</button><span>java</span></p>
     <p class="hint">16: The natural state of a metal e.g Iron-
-      <button>Reveal</button><span>ore</span></p>
+      <button class="hint-button">Reveal</button><span>ore</span></p>
     <h3>Down</h3>
     <p class="hint">3: natural chamber in the ground or inside of a hill where you can enter
-      <button>Reveal</button><span>cave</span></p>
+      <button class="hint-button">Reveal</button><span>cave</span></p>
     <p class="hint">10: To do, the take part in a movie
-      <button>Reveal</button><span>act</span></p>
+      <button class="hint-button">Reveal</button><span>act</span></p>
     <p class="hint">16: |, ||, this is used in programming, opposite of "and"
-      <button>Reveal</button><span>or</span></p>
+      <button class="hint-button">Reveal</button><span>or</span></p>
   </div>
   
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
